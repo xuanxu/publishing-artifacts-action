@@ -1,6 +1,6 @@
 # Open Journals Publishing Artifacts
 
-Create a PDF and JATS files for an Open Journals article.
+Create PDF and JATS files for an Open Journals article.
 
 ## Usage
 
