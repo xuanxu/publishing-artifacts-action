@@ -11,6 +11,11 @@ inputs:
         project's root directory.
     required: false
     default: 'paper.md'
+  metadata-file:
+    description: >-
+        Path to the metadata file to use to compile the paper
+    required: false
+    default: ''
 runs:
   using: docker
   image: 'docker://openjournals/inara:latest'
@@ -19,6 +24,7 @@ runs:
     JOURNAL: ${{ inputs.journal }}
   args:
     - ${{ inputs.paper-path }}
+    - "-m ${{ inputs.metadata-file }}"
 branding:
   icon: file-text
   color: blue
