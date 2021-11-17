@@ -49,3 +49,14 @@ either `joss` or `jose`. Defaults to `joss`.
 
 Filename of the paper, relative to the project's root directory.
 Defaults to `paper.md`.
+
+### `args`
+
+Arguments to be passed to openjournals/inara (none by default)
+
+Options:
+```
+-m ARTICLE_INFO_FILE    path to the article's metadata info file
+
+-o OUTPUT_FORMATS       output formats (html/pdf/jats). Defaults to pdf & jats
+```
