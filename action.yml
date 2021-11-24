@@ -26,7 +26,8 @@ runs:
     GIT_SHA: $GITHUB_SHA
     JOURNAL: ${{ inputs.journal }}
   args:
-    - ${{ inputs.args }} ${{ inputs.paper-path }}
+    - ${{ inputs.args }}
+    - ${{ inputs.paper-path }}
 branding:
   icon: file-text
   color: blue
