@@ -1,5 +1,5 @@
 name: Open Journals Publishing Artifacts
-description: Create PDF and JATS files for an Open Journals paper
+description: Create PDF and XML files for an Open Journals paper
 inputs:
   journal:
     description: Target journal, must be either "joss" or "jose"
@@ -16,7 +16,7 @@ inputs:
       Arguments to be passed to the openjournals/inara
       Options:
         -m ARTICLE_INFO_FILE    path to the article's metadata info file
-        -o OUTPUT_FORMATS       output formats (html/pdf/jats). Defaults to pdf & jats
+        -o OUTPUT_FORMATS       output formats (html/pdf/jats/crossref)
     required: false
     default: ''
 runs:
