@@ -15,7 +15,7 @@ jobs:
     name: Paper Draft
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Build draft PDF
         uses: xuanxu/publishing-artifacts@main
         with:
