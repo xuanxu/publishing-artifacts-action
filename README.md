@@ -43,7 +43,7 @@ The build can be configured by setting the following inputs.
 ### `journal`
 
 The journal for to which this paper will be submitted. May be
-either `joss` or `jose`. Defaults to `joss`.
+either `joss`, `jose` or `resciencec`. Defaults to `joss`.
 
 ### `paper-path`
 
