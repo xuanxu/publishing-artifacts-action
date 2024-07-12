@@ -58,5 +58,5 @@ Options:
 ```
 -m ARTICLE_INFO_FILE    path to the article's metadata info file
 
--o OUTPUT_FORMATS       output formats (html/pdf/jats). Defaults to pdf & jats
+-o OUTPUT_FORMATS       output formats (html/pdf/jats/crossref/preprint/cff). Defaults to pdf & jats
 ```
