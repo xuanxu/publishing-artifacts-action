@@ -59,4 +59,8 @@ Options:
 -m ARTICLE_INFO_FILE    path to the article's metadata info file
 
 -o OUTPUT_FORMATS       output formats (html/pdf/jats/crossref/preprint/cff). Defaults to pdf & jats
+
+-p                      Use this flag to create a production PDF without watermark and linenumbers
+
+-r                      Meant for retraction notices that don't need to show Software/Editor/Reviewes/Submission-date information
 ```
