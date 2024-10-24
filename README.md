@@ -2,6 +2,8 @@
 
 Create PDF, Crossref XML, JATS, CFF, HTML and Preprint files for an Open Journals article.
 
+This action uses the Open Journals' Inara Docker image.
+
 ## Usage
 
 Add a file `.github/workflows/draft-pdf.yml` to your repo.
