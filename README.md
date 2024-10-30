@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build draft PDF
-        uses: xuanxu/publishing-artifacts@main
+        uses: xuanxu/publishing-artifacts-action@main
         with:
           journal: joss
           # This should be the path to the paper within your repo.
