@@ -21,7 +21,7 @@ inputs:
     default: ''
 runs:
   using: docker
-  image: 'docker://openjournals/inara:1.1.3'
+  image: 'docker://openjournals/inara:1.1.4'
   env:
     GIT_SHA: $GITHUB_SHA
     JOURNAL: ${{ inputs.journal }}
