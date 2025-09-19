@@ -64,5 +64,5 @@ Options:
 
 -p                      Use this flag to create a production PDF without watermark and linenumbers
 
--r                      Meant for retraction notices that don't need to show Software/Editor/Reviewes/Submission-date information
+-r                      Meant for retraction notices that don't need to show Software/Editor/Reviewers/Submission-date information
 ```
